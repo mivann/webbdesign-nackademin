@@ -1,45 +1,56 @@
 /*CSS kommentar*/
-
+header{
+	text-align: center;
+}
 
 body{
-	background-color: #FFFAFA;
+	background-image: linear-gradient(to right, #c9c9fd, #dacefa, #e7d4f6, #f1daf4, #f7e2f3);
     margin: 0; padding: 0;
 }
 
 main {
-    margin-left: auto; margin-right: auto;
-    margin-top: 2em; margin-bottom: 2.5em;
-    max-width: 50em; height: auto; min-height: calc(100% - 7.5em);
 
-    background-color: white;
-    -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.05);
-    -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.05);
-    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.05);
 
     text-align: center;
-    font-family: sans-serif;
-    margin-top: 2em;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 12em;
 }
 
 h1 {
     font-weight: lighter;
     font-size: 2.5em;
-}
+	font-family:'Pacifico', cursive;
+	}  
+	
+div.texxt 
+	{
+	text-align: center;
+    font-family: 'Amatic SC', cursive;
+    margin-top: 12em;
+	height: 60px;
+	}
 
-p{
-}
+
+
 
 img{
-  width: 20%;
-  height: auto;
-  display: block;
-margin-left: auto;
-margin-right: auto;
-margin-top: 3em;
+	display: block;
+	margin-top: 2em	;
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+	width: auto;
     }
+	
+p
+{
+	margin-left:3em;
+	margin-right:3em;
+}
 
 footer{
-
+			padding: 3em;
 			text-align:center;
 			clear:both;
 		}
@@ -47,4 +58,18 @@ footer{
 		{
 			font-family:sans-serif;
 			font-size:20px;
+		}
+		footer h2
+		{
+			font-family: 'Amatic SC', cursive;
+			font-size:20px;
+		}
+ h2
+		{
+		font-family: 'Source Sans Pro', sans-serif;
+			font-size: 5em;
+		}
+h3
+		{
+
 		}
